@@ -7,6 +7,7 @@
 
     <title>Zetta Hotels</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/responsive.css">
@@ -15,19 +16,20 @@
     <div class="background-div">
         <div class="header">
             <h4><a class="logo" href="index.html">Zetta Hotels</a></h4>
-            <nav>
+            <nav class="navigation">
                 <ul class="ul">
                     <li><a class="home blue" href="index.html">HOME</a></li>
-                    <li><a class="home" href="#">ROOMS</a> <span></span> </li>
+                    <div class="room">
+                        <li><a class="home" href="#">ROOMS</a></li>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
                     <li><a class="home" href="#">RESTAURANT</a></li>
                     <li><a class="home" href="#">ABOUT US</a></li>
                     <li><a class="home" href="#">BLOG</a></li>
                     <li><a class="home" href="#">CONTACT</a></li>
                 </ul>
             </nav>
-            <div class="burger-bar">
-                <i class="fa-solid fa-bars"></i>
-            </div>
+            <i class="fa-solid fa-bars"></i>
             <div class="about">
                 <p>About Us</p>
                 <div class="home">
@@ -50,7 +52,48 @@
                     <i class="fa-solid fa-arrow-right"></i>  
                 </div>
             </div>
+            <div class="images">
+                <img src="images/stairs.jpg" alt="stairs">
+                <img class="woman" src="images/woman.jpg" alt="woman">
+                <img class="green" src="images/green.jpg" alt="green">
+            </div>
         </div>
     </section>
+    <div class="background-div-2">
+        <div class="paragraph-2">
+            <p>ABOUT US</p>
+            <h3 class="bring">We bring you the finest details</h3>
+        </div>
+        <div class="wrap-div">
+            <div class="wrapper">
+                <div class="ball">
+                    <img class="hotel" src="images/hotel.svg" alt="hotel">
+                </div>
+                <h3 class="free">Free Wifi to stay connected</h3>
+                <p class="lrm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="wrapper">
+                <div class="ball">
+                    <img class="hotel" src="images/hotel.svg" alt="hotel">
+                </div>
+                <h3 class="free">4K Television and Netflix included</h3>
+                <p class="lrm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="wrapper">
+                <div class="ball">
+                    <img class="hotel" src="images/hotel.svg" alt="hotel">
+                </div>
+                <h3 class="free">Span zone where you can chill</h3>
+                <p class="lrm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="wrapper">
+                <div class="ball">
+                    <img class="hotel" src="images/hotel.svg" alt="hotel">
+                </div>
+                <h3 class="free">Spacious rooms for awesome parties</h3>
+                <p class="lrm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
