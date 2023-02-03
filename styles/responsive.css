@@ -53,10 +53,17 @@
     .green {
         width: 100%;
     }
-    .images {
+}
+
+@media (max-width:519px){
+    .images{
         justify-content: center;
     }
+    .woman {
+        margin-top: 10px;
+    }
 }
+
 @media  (max-width:452px){
     .lorem{
         padding-bottom: 40px;
@@ -66,5 +73,19 @@
 @media (max-width:375px) {
     .lorem{
         padding-bottom: 70px;
+    }
+    .about {
+        left: 10px;
+    }
+    .trust {
+        width: 100%;
+    }
+    .stairs,
+    .woman {
+        width: 80%;
+    }
+    .paragraph-2 {
+        padding-left: 0;
+        width: 100%;
     }
 }
